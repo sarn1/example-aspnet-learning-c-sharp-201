@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05", "Lesson05\Lesson05.csproj", "{F45A199F-A03B-4ED6-BFAB-7A5C1D420680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05Test", "Lesson05Test\Lesson05Test.csproj", "{0C806F3A-11A5-4841-BB80-728EAE4A7935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45A199F-A03B-4ED6-BFAB-7A5C1D420680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45A199F-A03B-4ED6-BFAB-7A5C1D420680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45A199F-A03B-4ED6-BFAB-7A5C1D420680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45A199F-A03B-4ED6-BFAB-7A5C1D420680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C806F3A-11A5-4841-BB80-728EAE4A7935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C806F3A-11A5-4841-BB80-728EAE4A7935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C806F3A-11A5-4841-BB80-728EAE4A7935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C806F3A-11A5-4841-BB80-728EAE4A7935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
