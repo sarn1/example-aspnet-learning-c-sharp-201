@@ -147,5 +147,41 @@ public static explicit operator Digit(int value)
 ```
 
 ## 2.6 Generics (Lesson 5) ##
+- You'll use `T`
+- Allows you to use `Int` or `Int32`
 
+```csharp
+[TestMethod]
+public void Int32Point()
+{
+    var p1 = new Point<int>(1, 1);
+
+    Assert.AreEqual(p1.X, 1);
+    Assert.AreEqual(p1.Y, 1);
+}
+
+[TestMethod]
+public void FloatPoint()
+{
+    var p1 = new Point<float>(1.1f, 1.1f);
+
+    Assert.AreEqual(p1.X, 1.1f);
+    Assert.AreEqual(p1.Y, 1.1f);
+}
+```
+
+## 2.7 Geenerics & The Operator Problem (Lesson 6) ##
+- Allows
+
+```csharp
+var calculator = new CalculatorInt32();
+var p1 = new Point<int>(1, 1);
+var p2 = new Point<int>(2, 2);
+
+var p3 = calculator.AddPoints(p1, p2);
+
+Assert.AreEqual(p3.X, 3);
+```
+
+## 2.10-2.11 Lync ###
 
