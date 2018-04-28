@@ -170,7 +170,7 @@ public void FloatPoint()
 }
 ```
 
-## 2.7 Geenerics & The Operator Problem (Lesson 6) ##
+## 2.7 Generics & The Operator Problem (Lesson 6) ##
 - Allows
 
 ```csharp
